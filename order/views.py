@@ -40,7 +40,7 @@ def admin_order_detail(request, order_id):
 from django.conf import settings
 from django.http import HttpResponse
 from django.template.loader import render_to_string
-
+# import weasyprint
 
 @staff_member_required
 def admin_order_pdf(request, order_id):
